@@ -24,3 +24,14 @@ We recommend running this repository using [Anaconda](https://docs.anaconda.com/
 ```bash
 conda env create -f ./environment/noise_injection_env.yaml
 ```
+
+<br/>
+
+## (1) Image-to-Image Translation Models for Experimentation
+
+We have employed the Gaussian noise-injected training methodology in various image-to-image translation models and contrasted them with their original baselines. Specifically,
+- [HiFaceGAN](https://github.com/Lotayou/Face-Renovation), a GAN-based I2I model primarily utilized for Face Super-Resolution task on real-life facial photographs, was tested with the FFHQ dataset
+- [GP-UNIT](https://github.com/williamyang1991/GP-UNIT), a generative prior-based image translation model for converting images between unpaired data domains, was subjected to the Cat-to-Dog image translation task on the AFHQ dataset.
+- Sketch Transformer, a Transformer-based image translation model, was evaluated on its ability to convert photo-sketch paired data from the CUFS dataset in the Photo-to-Sketch image translation task.
+
+## (2) Datasets
