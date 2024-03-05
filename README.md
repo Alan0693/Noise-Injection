@@ -45,3 +45,16 @@ Pretrained models (Baseline and Noise Injection) can be downloaded from Google D
 - [HiFaceGAN](https://drive.google.com/drive/folders/1k5GZ1KJKdOawo17dxs7LliEkEfZdWnYj?usp=sharing)
 - [GP-UNIT](https://drive.google.com/drive/folders/13zsLXKg5AjdK-cOVzOUsvsAEjP7j7zdx?usp=sharing)
 - [Sketch Transformer](https://drive.google.com/drive/folders/1T0ioMAoft7xJH5yYuGTjYVFbbMbmCemL?usp=sharing)
+
+## Citation
+
+If you find this work useful for your research, please consider citing our paper:
+
+```bibtex
+@inproceedings{shi2023analysis,
+  title={On the Analysis of GAN-based Image-to-Image Translation with Gaussian Noise Injection},
+  author={Shi, Chaohua and Huang, Kexin and Lu, GAN and Liu, Hongqing and Zhu, Mingrui and Wang, Nannan and Gao, Xinbo},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2023}
+}
+```
