@@ -38,3 +38,5 @@ We have employed the Gaussian noise-injected training methodology in various ima
 - [FFHQ](https://github.com/NVlabs/ffhq-dataset) for HiFaceGAN. We selected the 10,000 images with the lowest serial number for training, while the final 1,000 images were used for testing. We perform a 16x face super-resolution task on this dataset, where the HR resolution is 512x, and the LR resolution is 32x.
 - [AFHQ](https://github.com/clovaai/stargan-v2/tree/master) for GP-UNIT. It contains high-resolution images of animal faces, including cats, dogs, and wild animals, from three domains with substantial variations. Each domain comprises 500 test images. We perform the Cat-2-Dog image translation task on this dataset.
 - [CUFS](https://mmlab.ie.cuhk.edu.hk/datasets.html) for Sketch Transformer. It contains 188 identities from the CUHK student database, 123 from the AR database, and 295 from the XM2VTS database We perform the Photo-2-Sketch image translation task on this dataset.
+
+## (2) Pretrained Models
