@@ -46,6 +46,9 @@ Pretrained models (Baseline and Noise Injection) can be downloaded from Google D
 - [GP-UNIT](https://drive.google.com/drive/folders/13zsLXKg5AjdK-cOVzOUsvsAEjP7j7zdx?usp=sharing)
 - [Sketch Transformer](https://drive.google.com/drive/folders/1T0ioMAoft7xJH5yYuGTjYVFbbMbmCemL?usp=sharing)
 
+## (4) Training
+During our training process, we follow the default settings of each baseline model, only substituting clean images in the source domain with their noisy variants. Consequently, both training duration and memory requirements remain unchanged. Drawing insights from prior work on unconditional GANs, it's suggested that incorporating noise into training images can improve convergence and enhance training stability. Indeed, in our experiments, all three GAN-based I2I models achieved convergence without any instances of model collapse—a frequent challenge in GAN training.
+
 ## Citation
 
 If you find this work useful for your research, please consider citing our paper:
