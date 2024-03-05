@@ -1,2 +1,3 @@
-# Noise-Injection
-[ICLR 2024] On the Analysis of GAN-based Image-to-Image Translation using Gaussian Noise Injection
+# Noise Injection - Official PyTorch Implementation
+
+<img src="https://raw.githubusercontent.com/williamyang1991/GP-UNIT/main/doc_images/results.jpg" width="96%" height="96%">
