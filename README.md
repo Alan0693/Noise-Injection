@@ -40,3 +40,8 @@ We have employed the Gaussian noise-injected training methodology in various ima
 - [CUFS](https://mmlab.ie.cuhk.edu.hk/datasets.html) for Sketch Transformer. It contains 188 identities from the CUHK student database, 123 from the AR database, and 295 from the XM2VTS database We perform the Photo-2-Sketch image translation task on this dataset.
 
 ## (2) Pretrained Models
+
+Pretrained models (Baseline and Noise Injection) can be downloaded from Google Drive:
+- [HiFaceGAN](https://drive.google.com/drive/folders/1k5GZ1KJKdOawo17dxs7LliEkEfZdWnYj?usp=sharing)
+- [GP-UNIT](https://drive.google.com/drive/folders/13zsLXKg5AjdK-cOVzOUsvsAEjP7j7zdx?usp=sharing)
+- [Sketch Transformer](https://drive.google.com/drive/folders/1T0ioMAoft7xJH5yYuGTjYVFbbMbmCemL?usp=sharing)
